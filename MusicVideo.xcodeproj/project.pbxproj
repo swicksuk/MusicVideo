@@ -15,6 +15,8 @@
 		752850EE1CE8B43600BFE1FA /* MusicVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752850ED1CE8B43600BFE1FA /* MusicVideoTests.swift */; };
 		752850F91CE8B43600BFE1FA /* MusicVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752850F81CE8B43600BFE1FA /* MusicVideoUITests.swift */; };
 		7528510B1CE8C00D00BFE1FA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528510A1CE8C00C00BFE1FA /* APIManager.swift */; };
+		7528510E1CE8F7CB00BFE1FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528510D1CE8F7CB00BFE1FA /* Constants.swift */; };
+		752851101CE8F92600BFE1FA /* MusicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528510F1CE8F92600BFE1FA /* MusicVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		752850F81CE8B43600BFE1FA /* MusicVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoUITests.swift; sourceTree = "<group>"; };
 		752850FA1CE8B43700BFE1FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7528510A1CE8C00C00BFE1FA /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7528510D1CE8F7CB00BFE1FA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7528510F1CE8F92600BFE1FA /* MusicVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		752850D71CE8B41D00BFE1FA /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
+				7528510C1CE8F7AC00BFE1FA /* Utils */,
 				752851091CE8BB4300BFE1FA /* Support Files */,
 				752851061CE8BAD500BFE1FA /* Model */,
 				752851071CE8BAE500BFE1FA /* Controller */,
@@ -129,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				7528510A1CE8C00C00BFE1FA /* APIManager.swift */,
+				7528510F1CE8F92600BFE1FA /* MusicVideo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -158,6 +164,14 @@
 				752850D81CE8B41E00BFE1FA /* AppDelegate.swift */,
 			);
 			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		7528510C1CE8F7AC00BFE1FA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7528510D1CE8F7CB00BFE1FA /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +307,9 @@
 			files = (
 				7528510B1CE8C00D00BFE1FA /* APIManager.swift in Sources */,
 				752850DB1CE8B41F00BFE1FA /* ViewController.swift in Sources */,
+				752851101CE8F92600BFE1FA /* MusicVideo.swift in Sources */,
 				752850D91CE8B41E00BFE1FA /* AppDelegate.swift in Sources */,
+				7528510E1CE8F7CB00BFE1FA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
