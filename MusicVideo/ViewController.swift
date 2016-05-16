@@ -22,6 +22,11 @@ class ViewController: UIViewController {
     }
     
     func didLoadData(videos: [Videos]){
+        
+        print(reachabilityStatus)
+        
+        self.videos = videos
+        
         for (index, item) in videos.enumerate(){
             print("\(index) - name = \(item.vName)")
         }
